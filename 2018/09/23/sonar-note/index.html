@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="sonar������֪ʶ�ʼ�ѧϰ��θ�sonar-pmd���:���ɰ���p3c   www.jianshu.com/p/b849175dd38b sonarqubeʹ��maven-plugin��Ԥ�����:   https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  maven sonar���mvn����-">
+<meta name="description" content="sonar搭建与基本知识笔记学习如何改sonar-pmd插件:集成阿里p3c   www.jianshu.com/p/b849175dd38b sonarqube使用maven-plugin的预设参数:   https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  maven sonar插件mvn参数-Dsonar.exclusio">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sonar note">
 <meta property="og:url" content="http://yoursite.com/2018/09/23/sonar-note/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="sonar������֪ʶ�ʼ�ѧϰ��θ�sonar-pmd���:���ɰ���p3c   www.jianshu.com/p/b849175dd38b sonarqubeʹ��maven-plugin��Ԥ�����:   https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  maven sonar���mvn����-">
+<meta property="og:description" content="sonar搭建与基本知识笔记学习如何改sonar-pmd插件:集成阿里p3c   www.jianshu.com/p/b849175dd38b sonarqube使用maven-plugin的预设参数:   https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  maven sonar插件mvn参数-Dsonar.exclusio">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-23T15:08:15.223Z">
+<meta property="og:updated_time" content="2018-09-23T15:12:01.576Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sonar note">
-<meta name="twitter:description" content="sonar������֪ʶ�ʼ�ѧϰ��θ�sonar-pmd���:���ɰ���p3c   www.jianshu.com/p/b849175dd38b sonarqubeʹ��maven-plugin��Ԥ�����:   https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  maven sonar���mvn����-">
+<meta name="twitter:description" content="sonar搭建与基本知识笔记学习如何改sonar-pmd插件:集成阿里p3c   www.jianshu.com/p/b849175dd38b sonarqube使用maven-plugin的预设参数:   https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  maven sonar插件mvn参数-Dsonar.exclusio">
 
 
 
@@ -299,10 +299,10 @@
       
 
       
-        <h3 id="sonar������֪ʶ�ʼ�"><a href="#sonar������֪ʶ�ʼ�" class="headerlink" title="sonar������֪ʶ�ʼ�"></a>sonar������֪ʶ�ʼ�</h3><p>ѧϰ��θ�sonar-pmd���:<br>���ɰ���p3c  </p>
-<h2 id="www-jianshu-com-p-b849175dd38b"><a href="#www-jianshu-com-p-b849175dd38b" class="headerlink" title="www.jianshu.com/p/b849175dd38b "></a><a href="http://www.jianshu.com/p/b849175dd38b" target="_blank" rel="noopener">www.jianshu.com/p/b849175dd38b</a> </h2><p>sonarqubeʹ��maven-plugin��Ԥ�����:  </p>
-<h2 id="https-docs-sonarqube-org-display-SONAR-Analysis-Parameters"><a href="#https-docs-sonarqube-org-display-SONAR-Analysis-Parameters" class="headerlink" title="https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  "></a><a href="https://docs.sonarqube.org/display/SONAR/Analysis+Parameters" target="_blank" rel="noopener">https://docs.sonarqube.org/display/SONAR/Analysis+Parameters</a>  </h2><p><strong>maven sonar���</strong><br><strong>mvn</strong><br>����-D<br>sonar.exclusions=<code>**/test/**</code>,<code>**/mock/**</code><br>sonar.dynamicAnalysis=reuseReports<br>sonar.cpd.exclusions=<br>sonar.jdbc.driver=com.mysql.jdbc.Driver<br>sonar.branch=<br>sonar.host.username<br>sonar.host.password<br>sonar.host.url<br>sonar.projectName  </p>
-<p><a href="https://www.sonarqube.org/" target="_blank" rel="noopener">sonar������ַ</a></p>
+        <h3 id="sonar搭建与基本知识笔记"><a href="#sonar搭建与基本知识笔记" class="headerlink" title="sonar搭建与基本知识笔记"></a>sonar搭建与基本知识笔记</h3><p>学习如何改sonar-pmd插件:<br>集成阿里p3c  </p>
+<h2 id="www-jianshu-com-p-b849175dd38b"><a href="#www-jianshu-com-p-b849175dd38b" class="headerlink" title="www.jianshu.com/p/b849175dd38b "></a><a href="http://www.jianshu.com/p/b849175dd38b" target="_blank" rel="noopener">www.jianshu.com/p/b849175dd38b</a> </h2><p>sonarqube使用maven-plugin的预设参数:  </p>
+<h2 id="https-docs-sonarqube-org-display-SONAR-Analysis-Parameters"><a href="#https-docs-sonarqube-org-display-SONAR-Analysis-Parameters" class="headerlink" title="https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  "></a><a href="https://docs.sonarqube.org/display/SONAR/Analysis+Parameters" target="_blank" rel="noopener">https://docs.sonarqube.org/display/SONAR/Analysis+Parameters</a>  </h2><p><strong>maven sonar插件</strong><br><strong>mvn</strong><br>参数-D<br>sonar.exclusions=<code>**/test/**</code>,<code>**/mock/**</code><br>sonar.dynamicAnalysis=reuseReports<br>sonar.cpd.exclusions=<br>sonar.jdbc.driver=com.mysql.jdbc.Driver<br>sonar.branch=<br>sonar.host.username<br>sonar.host.password<br>sonar.host.url<br>sonar.projectName  </p>
+<p><a href="https://www.sonarqube.org/" target="_blank" rel="noopener">sonar官网地址</a></p>
 
       
     </div>
@@ -433,7 +433,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#sonar������֪ʶ�ʼ�"><span class="nav-number">1.</span> <span class="nav-text">sonar������֪ʶ�ʼ�</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#www-jianshu-com-p-b849175dd38b"><span class="nav-number"></span> <span class="nav-text">www.jianshu.com/p/b849175dd38b </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#https-docs-sonarqube-org-display-SONAR-Analysis-Parameters"><span class="nav-number"></span> <span class="nav-text">https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  </span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#sonar搭建与基本知识笔记"><span class="nav-number">1.</span> <span class="nav-text">sonar搭建与基本知识笔记</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#www-jianshu-com-p-b849175dd38b"><span class="nav-number"></span> <span class="nav-text">www.jianshu.com/p/b849175dd38b </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#https-docs-sonarqube-org-display-SONAR-Analysis-Parameters"><span class="nav-number"></span> <span class="nav-text">https://docs.sonarqube.org/display/SONAR/Analysis+Parameters  </span></a></div>
             
 
           </div>
